@@ -1,0 +1,10 @@
+/target/
+.settings/
+.project
+.classpath
+/web/META-INF
+/web/WEB-INF/.faces-config.xml.jsfdia
+/bin/
+.metadata/
+.DS_Store
+.factorypath

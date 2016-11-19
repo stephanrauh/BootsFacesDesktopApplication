@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:b="http://bootsfaces.net/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:pt="http://xmlns.jcp.org/jsf/passthrough" >
+    <h:head>
+        <title>BootsFaces rocks the desktop!</title>
+        <meta name="author" content="Stephan Rauh"></meta>
+    </h:head>
+    <h:body style="padding-top:20px">
+    	<b:container>
+    		<b:panelGrid columns="2">
+	    		<b:panel title="Igniting the engines" look="success">
+	    			#{me.name} is greeting you!
+	    		</b:panel>
+	    		<b:panel title="CDI demo" look="success">
+	    			#{me.you.howdy()}
+	    		</b:panel>
+    		</b:panelGrid>
+    	</b:container>
+    </h:body>
+</html>
